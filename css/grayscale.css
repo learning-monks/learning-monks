@@ -1,12 +1,7 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
-
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
+  color: #007bff;
+  background-color: transparent;
 }
 
 #mainNav .navbar-toggler {
@@ -21,7 +16,6 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -30,6 +24,17 @@
   color: fade(white, 80%);
   outline: none;
   background-color: transparent;
+}
+#mainNav .container .navbar-brand{
+color: #64a19d;
+}
+
+#mainNav.navbar-shrink {
+  background-color: #fff;
+}
+
+#mainNav.navbar-shrink .container .navbar-brand{
+color: #000;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
