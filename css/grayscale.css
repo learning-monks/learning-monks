@@ -31,7 +31,7 @@
 
 #mainNav .navbar-brand {
   color: #fff;
-  width: 200px;
+  width: 180px;
   height: 50px;
   -o-object-fit: cover;
   object-fit: cover;
@@ -61,7 +61,7 @@
   #mainNav .navbar-brand {
     padding: .5rem 0;
     height: 100px;
-    width: 250px;
+    width: 240px;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -105,7 +105,7 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
