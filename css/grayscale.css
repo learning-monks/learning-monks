@@ -1,13 +1,27 @@
+/*!
+ * Start Bootstrap -  v1.0.0 (https://github.com/learning-monks/learning-monks#readme)
+ * Copyright 2013-2020 
+ * Licensed under ISC (https://github.com/BlackrockDigital/learning-monks/blob/master/LICENSE)
+ */
+
 #mainNav {
   min-height: 56px;
-  color: #007bff;
   background-color: transparent;
+  color: #fff;
+}
+
+#mainNav.navbar-shrink {
+  background-color: #000;
+}
+
+#mainNav .nav-link {
+  color: white;
 }
 
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
+  color: #fff;
   border: 1px solid #64a19d;
 }
 
@@ -16,6 +30,11 @@
 }
 
 #mainNav .navbar-brand {
+  color: #fff;
+  width: 200px;
+  height: 50px;
+  -o-object-fit: cover;
+  object-fit: cover;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -24,17 +43,6 @@
   color: fade(white, 80%);
   outline: none;
   background-color: transparent;
-}
-#mainNav .container .navbar-brand{
-color: #64a19d;
-}
-
-#mainNav.navbar-shrink {
-  background-color: #fff;
-}
-
-#mainNav.navbar-shrink .container .navbar-brand{
-color: #000;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -52,6 +60,8 @@ color: #000;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
+    height: 100px;
+    width: 250px;
     color: rgba(255, 255, 255, 0.5);
   }
   #mainNav .nav-link {
@@ -66,13 +76,13 @@ color: #000;
     color: white;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #000;
   }
   #mainNav.navbar-shrink .navbar-brand {
-    color: #161616;
+    color: #fff;
   }
   #mainNav.navbar-shrink .nav-link {
-    color: #161616;
+    color: #fff;
     padding: 1.5rem 1.5rem 1.25rem;
     border-bottom: 0.25rem solid transparent;
   }
@@ -95,7 +105,7 @@ color: #000;
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-classroom.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/bg-masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
